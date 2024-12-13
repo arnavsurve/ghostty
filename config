@@ -133,7 +133,7 @@ font-feature =
 # depending on your `window-inherit-font-size` setting. If that setting is
 # true, only the first window will be affected by this change since all
 # subsequent windows will inherit the font size of the previous window.
-font-size = 12
+font-size = 10
 
 # A repeatable configuration to set one or more font variations values for
 # a variable font. A variable font is a single font, usually with a filename
@@ -318,7 +318,7 @@ freetype-load-flags = hinting,force-autohint,monochrome,autohint
 # 
 #   - macOS: titlebar tabs style is not updated when switching themes.
 # 
-theme = /Applications/Ghostty.app/Contents/Resources/ghostty/themes/Hybrid
+theme = Hybrid
 
 # Background color for the window.
 # background = #282c34
@@ -1156,7 +1156,7 @@ keybind = super+v=paste_from_clipboard
 # left padding to 2 and the right padding to 4. If you want to set both
 # paddings to the same value, you can use a single value. For example,
 # `window-padding-x = 2` will set both paddings to 2.
-window-padding-x = 2
+window-padding-x = 5
 
 # Vertical window padding. This applies padding between the terminal cells and
 # the top and bottom window borders. The value is in points, meaning that it
@@ -1175,7 +1175,7 @@ window-padding-x = 2
 # top padding to 2 and the bottom padding to 4. If you want to set both
 # paddings to the same value, you can use a single value. For example,
 # `window-padding-y = 2` will set both paddings to 2.
-window-padding-y = 2
+window-padding-y = 5
 
 # The viewport dimensions are usually not perfectly divisible by the cell
 # size. In this case, some extra padding on the end of a column and the bottom
@@ -1540,7 +1540,7 @@ confirm-close-surface = true
 # On Linux, if this is `true`, Ghostty can delay quitting fully until a
 # configurable amount of time has passed after the last window is closed.
 # See the documentation of `quit-after-last-window-closed-delay`.
-quit-after-last-window-closed = false
+quit-after-last-window-closed = true
 
 # Controls how long Ghostty will stay running after the last open surface has
 # been closed. This only has an effect if `quit-after-last-window-closed` is
@@ -1981,7 +1981,7 @@ gtk-single-instance = desktop
 # 
 # Changing this value at runtime and reloading the configuration will only
 # affect new windows.
-gtk-titlebar = true
+gtk-titlebar = false
 
 # Determines the side of the screen that the GTK tab bar will stick to.
 # Top, bottom, left, and right are supported. The default is top.
