@@ -1808,7 +1808,7 @@ macos-non-native-fullscreen = false
 # most cases.
 # 
 # Changing this option at runtime only applies to new windows.
-macos-titlebar-style = transparent
+macos-titlebar-style = tabs 
 
 # Whether the proxy icon in the macOS titlebar is visible. The proxy icon
 # is the icon that represents the folder of the current working directory.
@@ -1829,7 +1829,7 @@ macos-titlebar-style = transparent
 # Therefore, to make this work after changing the setting, you must
 # usually `cd` to a different directory, open a different file in an
 # editor, etc.
-macos-titlebar-proxy-icon = visible
+macos-titlebar-proxy-icon = hidden 
 
 # macOS doesn't have a distinct "alt" key and instead has the "option"
 # key which behaves slightly differently. On macOS by default, the
