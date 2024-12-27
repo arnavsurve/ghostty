@@ -318,7 +318,7 @@ freetype-load-flags = hinting,force-autohint,monochrome,autohint
 # 
 #   - macOS: titlebar tabs style is not updated when switching themes.
 # 
-theme = /Applications/Ghostty.app/Contents/Resources/ghostty/themes/Harper
+theme = /Applications/Ghostty.app/Contents/Resources/ghostty/themes/Atom
 
 # Background color for the window.
 # background = #282c34
