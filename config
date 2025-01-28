@@ -178,7 +178,7 @@ font-codepoint-map =
 
 # Draw fonts with a thicker stroke, if supported. This is only supported
 # currently on macOS.
-font-thicken = false
+font-thicken = true
 
 # All of the configurations behavior adjust various metrics determined by the
 # font. The values can be integers (1, -1, etc.) or a percentage (20%, -15%,
